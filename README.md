@@ -7,13 +7,15 @@ For verifying our findings, we conduct experiments of two serverless application
 
 KMeans application is implemented in a sequence workflow, and accomplishes the clustering functionality for point sets with three-dimensional space. First, use a serverless function to generate 1500 points, because the data payload limit of ASW cannot generate the data of 2000 points. Second, initialize the centroid points randomly. For the KMeans algorithm, the K-value of clustering needs to be given in advance. We adopt Elbow Method to determine K as 8. Next, based on the point set and centroid points, perform the clustering functionality of KMeans. Finally, output and show the clustering result.
 
-![The performance of the KMeans application.](pics/KMeans-compare-totalTime+funTime+overheadTime.pdf)
+![image](https://user-images.githubusercontent.com/73005808/122495758-319e0280-d01d-11eb-9ffb-e0fe6e9dadbe.png)
 
-
+The performance of the KMeans application.
 
 Figure~\ref{fig:KMeans-compare-totalTime+funTime+overheadTime} represents the comparison of \emph{totalTime}, \emph{funTime}, and \emph{overheadTime} of the \emph{KMeans} application for ASF, ADF, ASW, and GCC. ASF shows the shortest \emph{totalTime} and \emph{overheadTime}, and ADF has the shortest \emph{funTime} (\textbf{F.8 in Table~\ref{tab:findingandimplication}}). This is consistent with the implication \textbf{I.3 in Table~\ref{tab:findingandimplication}}. We also find the same inferred that the changing trend of \emph{totalTime} in sequence workflow is mainly affected by \emph{overheadTime} (\textbf{F.3 in Table~\ref{tab:findingandimplication}}) because \emph{funTime} cost the relatively low and stable time in this \emph{KMeans} application. In terms of data-flow complexity about the data payloads, the previous conclusion (\textbf{I.6 in Table~\ref{tab:findingandimplication}}) is that when the data payload is less than $2^{18}$, ASF is advised to use. In the \emph{KMeans} application, the data payload size is within $2^{18}$, and the performance of ASF is best considering \emph{totalTime}, \emph{overheadTime}. Figure~\ref{fig:KMeans-compare-function} shows execution times of respective functions. Compared with GCC, the execution time of each function of ASF, ADF, and ASW is lower and more stable. It can still be concluded that the performance ADF is the best on the function execution (\textbf{F.8 in Table~\ref{tab:findingandimplication}}).
 
-![The comparison about execution times of respective functions about the KMeans application.](pics/KMeans-compare-function.pdf)
+![image](https://user-images.githubusercontent.com/73005808/122495820-4d090d80-d01d-11eb-9a73-c28ddd06b137.png)
+
+The comparison about execution times of respective functions about the KMeans application.
 
 
 
@@ -23,8 +25,9 @@ Figure~\ref{fig:KMeans-compare-totalTime+funTime+overheadTime} represents the co
 
 \textbf{I.1 in Table~\ref{tab:findingandimplication}} presents that ADF is used in small-scale activity-intensive parallel workflows. In Figure~\ref{fig:MapReduce-compare-totalTime+funTime+overheadTime}, it also shows ADF has the relatively short \emph{totalTime}. However, results from \emph{totalTime} and \emph{overheadTime} of ASF are more stable than ADF. In the \emph{MapReduce} application, there are certain data payload to be transmitted. In the presence of the data payload, the previous conclusion is the ASF is more suitable when data payloads are less than $2^{15}$B in parallel workflow (\textbf{I.6 in Table~\ref{tab:findingandimplication}}). Thus, results of ASF show a relatively satisfactory \emph{totalTime} and \emph{overheadTime}. For respective function execution times, we also find that the performance of ADF is best and the same as our previous conclusions (\textbf{F.8 in Table~\ref{tab:findingandimplication}}). Due to space reasons, the distribution figure about respective execution times of functions is not displayed.
 
+![image](https://user-images.githubusercontent.com/73005808/122495853-598d6600-d01d-11eb-8634-c215802bb224.png)
 
-![The performance of the MapReduce application.](pics/MapReduce-compare-totalTime+funTime+overheadTime.pdf)
+The performance of the MapReduce application.
 
 
 

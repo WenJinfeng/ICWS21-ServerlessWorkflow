@@ -27,4 +27,5 @@ I.1 in Table 1 presents that ADF is used in small-scale activity-intensive paral
 Figure 3': The performance of the MapReduce application.
 
 ![image](https://user-images.githubusercontent.com/73005808/122496698-c6553000-d01e-11eb-86f8-1e85e6d25055.png)
+
 Figure 4': The comparison about respectively function times of MapReduce.

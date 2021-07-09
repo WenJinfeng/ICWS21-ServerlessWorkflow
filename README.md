@@ -1,4 +1,3 @@
-![FunctionNumSeq-totalTime+funTime+overheadTime](https://user-images.githubusercontent.com/51308506/125055574-eb970480-e0d9-11eb-8b73-f83af953b6af.png)
 
 # SourceCodeandFigure
 
@@ -11,8 +10,8 @@ We show and discuss results under various levels of activity complexity, data-fl
 ## A. Activity Complexity
 ### 1) Sequence application scenario
 
-#### FunctionNumSeq-totalTime+funTime+overheadTime.pdf - The performance of various levels of activity complexity in sequence workflows.
-[FunctionNumSeq-totalTime+funTime+overheadTime.pdf](https://github.com/WenJinfeng/ICWS21-ServerlessWrokflow/files/6790252/FunctionNumSeq-totalTime%2BfunTime%2BoverheadTime.pdf)
+-> FunctionNumSeq-totalTime+funTime+overheadTime.pdf - The performance of various levels of activity complexity in sequence workflows.
+![FunctionNumSeq-totalTime+funTime+overheadTime](https://user-images.githubusercontent.com/51308506/125055783-2731ce80-e0da-11eb-81b0-99e327ba5340.png)
 
 
 #### FunctionNumSeq-compare-totalTime.pdf - The comparison of totalTime under various levels of activity complexity in sequence workflows.

@@ -1,5 +1,5 @@
 
-![image](https://github.com/WenJinfeng/ICWS21-ServerlessWrokflow/blob/main/pics/FunctionNumPar-compare-funTime.pdf)
+![image](./pics/FunctionNumPar-compare-funTime.pdf)
 
 # SourceCodeandFigure
 

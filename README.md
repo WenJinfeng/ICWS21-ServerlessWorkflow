@@ -11,4 +11,20 @@ We show and discuss results under various levels of activity complexity, data-fl
 ### 1) Sequence application scenario
 hhhh
 
+### 2) Parallel application scenario
+
+## B. Data-flow Complexity
+### 1) Sequence application scenario
+hhhh
+
+### 2) Parallel application scenario
+
+## C. Function Complexity
+
+### 1) Sequence application scenario
+hhhh
+
+### 2) Parallel application scenario
+
+
 

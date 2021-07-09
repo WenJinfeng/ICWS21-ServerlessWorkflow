@@ -1,5 +1,5 @@
 
-![image](/Users/cynthia/Desktop/pics/FunctionNumPar-compare-funTime.pdf)
+![image text](https://github.com/WenJinfeng/ICWS21-ServerlessWrokflow/blob/main/pics/FunctionNumPar-compare-funTime.pdf)
 
 # SourceCodeandFigure
 

@@ -52,16 +52,121 @@ We show and discuss results under various levels of activity complexity, data-fl
 
 ## B. Data-flow Complexity
 ### 1) Sequence application scenario
-hhhh
+
+-> FunctionPayloadSeq-totalTime+funTime+overheadTime.pdf - The performance of various levels of data-flow complexity in sequence workflow.
+
+![FunctionPayloadSeq-totalTime+funTime+overheadTime](https://user-images.githubusercontent.com/51308506/125061189-a675d100-e0df-11eb-8ee7-c21865a6a24c.png)
+
+
+-> FunctionPayloadSeq-compare-totalTime.pdf - The comparison of totalTime under various levels of data-flow complexity in sequence workflow.
+
+![FunctionPayloadSeq-compare-totalTime](https://user-images.githubusercontent.com/51308506/125061223-af66a280-e0df-11eb-9c30-ba6b7b54c652.png)
+
+
+-> FunctionPayloadSeq-compare-funTime.pdf - The comparison of funTime under various levels of data-flow complexity in sequence workflow.
+
+![FunctionPayloadSeq-compare-funTime](https://user-images.githubusercontent.com/51308506/125061238-b392c000-e0df-11eb-96fa-5cfc8053f6c2.png)
+
+
+
+-> FunctionPayloadSeq-compare-overheadTime.pdf - The comparison of overheadTime under various levels of data-flow complexity in sequence workflow.
+
+![FunctionPayloadSeq-compare-overheadTime](https://user-images.githubusercontent.com/51308506/125061261-b8f00a80-e0df-11eb-8c90-17f42a78ab39.png)
+
+
+
+
 
 ### 2) Parallel application scenario
+
+-> FunctionPayloadPar-totalTime+funTime+overheadTime.pdf - The performance of various levels of data-flow complexity in parallel workflow.
+
+![FunctionPayloadPar-totalTime+funTime+overheadTime](https://user-images.githubusercontent.com/51308506/125062267-c5c12e00-e0e0-11eb-98fc-a2d6d0b783b5.png)
+
+
+-> FunctionPayloadPar-overheadTime+theoverheadTime.pdf - The comparison of overheadTime and theo_overheadTime under various levels of data-flow complexity in parallel workflow.
+
+![FunctionPayloadPar-overheadTime+theoverheadTime](https://user-images.githubusercontent.com/51308506/125062303-cf4a9600-e0e0-11eb-963f-2614e915d060.png)
+
+
+
+
+-> FunctionPayloadPar-compare-totalTime.pdf - The comparison of totalTime under various levels of data-flow complexity in parallel workflow.
+
+![FunctionPayloadPar-compare-totalTime](https://user-images.githubusercontent.com/51308506/125065428-6107d280-e0e4-11eb-89e3-b1cedbe68a81.png)
+
+
+
+
+-> FunctionPayloadPar-compare-funTime.pdf - The comparison of funTime under various levels of data-flow complexity in parallel workflow.
+
+![FunctionPayloadPar-compare-funTime](https://user-images.githubusercontent.com/51308506/125062346-dd98b200-e0e0-11eb-99a6-5de04cdd77be.png)
+
+
+
+-> FunctionPayloadPar-compare-overheadTime.pdf - The comparison of overheadTime under various levels of data-flow complexity in parallel workflow.
+
+![FunctionPayloadPar-compare-overheadTime](https://user-images.githubusercontent.com/51308506/125062357-dffb0c00-e0e0-11eb-8f13-224b5f8a9351.png)
+
+
 
 ## C. Function Complexity
 
 ### 1) Sequence application scenario
-hhhh
+
+-> FunctionTimeSeq-totalTime+funTime+overheadTime.pdf - The performance of various levels of function complexity in sequence workflow.
+
+![FunctionTimeSeq-totalTime+funTime+overheadTime](https://user-images.githubusercontent.com/51308506/125065024-e343c700-e0e3-11eb-92cc-8bc95b5a9fb0.png)
+
+-> FunctionTimeSeq-compare-totalTime.pdf - The comparison of totalTime under various levels of function complexity in sequence workflow.
+
+![FunctionTimeSeq-compare-totalTime](https://user-images.githubusercontent.com/51308506/125065030-e8a11180-e0e3-11eb-9ab1-5fcd92a2aebc.png)
+
+
+
+-> FunctionTimeSeq-compare-funTime.pdf - The comparison of funTime under various levels of function complexity in sequence workflow.
+
+![FunctionTimeSeq-compare-funTime](https://user-images.githubusercontent.com/51308506/125065047-ed65c580-e0e3-11eb-93d1-05f550a6f334.png)
+
+
+
+-> FunctionTimeSeq-compare-overheadTime.pdf - The comparison of overheadTime under various levels of function complexity in sequence workflow.
+
+
+![FunctionTimeSeq-compare-overheadTime](https://user-images.githubusercontent.com/51308506/125065063-f22a7980-e0e3-11eb-826b-d2e436d447ab.png)
+
+
 
 ### 2) Parallel application scenario
+
+-> FunctionTimePar-totalTime+funTime+overheadTime.pdf - The performance of various levels of function complexity in parallel workflow.
+
+
+![FunctionTimePar-totalTime+funTime+overheadTime](https://user-images.githubusercontent.com/51308506/125065090-fce50e80-e0e3-11eb-8a6d-f44acbb41389.png)
+
+
+
+-> FunctionTimePar-overheadTime+theoverheadTime.pdf - The comparison of overheadTime and theo_overheadTime under various levels of function complexity in parallel workflow.
+
+![FunctionTimePar-overheadTime+theoverheadTime](https://user-images.githubusercontent.com/51308506/125065227-29008f80-e0e4-11eb-8c3c-b991d3c9d0e8.png)
+
+
+
+
+-> FunctionTimePar-compare-totalTime.pdf - The comparison of totalTime under various levels of function complexity in parallel workflow.
+
+![FunctionTimePar-compare-totalTime](https://user-images.githubusercontent.com/51308506/125065238-2d2cad00-e0e4-11eb-9e29-bf5c340ded40.png)
+
+
+-> FunctionTimePar-compare-funTime.pdf - The comparison of funTime under various levels of function complexity in parallel workflow.
+
+
+![FunctionTimePar-compare-funTime](https://user-images.githubusercontent.com/51308506/125065257-3158ca80-e0e4-11eb-82eb-a7201133af29.png)
+
+
+-> FunctionTimePar-compare-overheadTime.pdf - The comparison of overheadTime under various levels of function complexity in parallel workflow.
+
+![FunctionTimePar-compare-overheadTime](https://user-images.githubusercontent.com/51308506/125065271-3584e800-e0e4-11eb-88d3-bb8386fb4063.png)
 
 
 

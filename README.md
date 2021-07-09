@@ -1,5 +1,5 @@
 
-- [SourceCodeandFigure](#sourcecodeandfigure)
+- [Findings and implications](#findings-and-implications)
 - [Experimental results](#experimental-results)
   * [A. Activity Complexity](#a-activity-complexity)
     + [1) Sequence application scenario](#1--sequence-application-scenario)
@@ -11,13 +11,8 @@
     + [1) Sequence application scenario](#1--sequence-application-scenario-2)
     + [2) Parallel application scenario](#2--parallel-application-scenario-2)
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
-
-
-
-
-# SourceCodeandFigure
+# Findings and implications
 
 ![image](https://user-images.githubusercontent.com/73005808/122500711-dc1a2380-d025-11eb-85c2-961920235a6c.png)
 

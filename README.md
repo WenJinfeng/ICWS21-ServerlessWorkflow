@@ -19,7 +19,8 @@ All experimental figures are shown as follows.
 
 # Findings and implications
 
-![image](https://user-images.githubusercontent.com/51308506/125186593-ca5f2100-e25d-11eb-9d13-cfd0a86f8c9f.png)
+![image](https://user-images.githubusercontent.com/51308506/125196377-538d4c80-e28c-11eb-87a1-19abd3621fe1.png)
+
 
 # Experimental results
 We show and discuss results under various levels of activity complexity, data-flow complexity, and function complexity considering both sequence and parallel application scenarios.

@@ -19,7 +19,7 @@ All experimental figures are shown as follows.
 
 # Findings and implications
 
-![image](https://user-images.githubusercontent.com/51308506/125399013-97926580-e3e2-11eb-96bb-49453fe61d3d.png)
+![image](https://user-images.githubusercontent.com/51308506/125623747-84936faa-978f-4482-a6cf-69aa1ac82dd7.png)
 
 
 # Experimental results
